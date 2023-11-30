@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web Moderna</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1 class="title">Bienvenido a mi Página Web</h1>
+    </header>
+
+    <main>
+        <section class="videos">
+            <h2>Videos</h2>
+            <div class="video-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TVIDEO1" frameborder="0"
+                    allowfullscreen></iframe>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/TVIDEO2" frameborder="0"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section class="fotos">
+            <h2>Fotos</h2>
+            <div class="image-container">
+                <img src="ruta-a-tu-imagen1.jpg" alt="Imagen 1">
+                <img src="ruta-a-tu-imagen2.jpg" alt="Imagen 2">
+            </div>
+        </section>
+
+        <section class="mapa">
+            <h2>Google Maps</h2>
+            <div id="map"></div>
+        </section>
+    </main>
+
+    <script src="scripts.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" async defer></script>
+</body>
+
+</html>
 
